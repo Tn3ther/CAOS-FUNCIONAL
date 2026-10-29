@@ -34,9 +34,9 @@ import {
 const PROJECT_INFO = {
   title: 'CAOS FUNCIONAL',
   subtitle: '“Un campus que funciona, pero que parece olvidar dónde está.”',
-  tagline: 'Dos estudiantes. Una universidad. Otra forma de verla.',
+  tagline: 'Una universidad. Otra forma de verla.',
   authors: 'Estudiantes de Ingeniería de Sistemas — UCV Huaraz, El Pinar',
-  coordinates: '9°30′42″S 77°31′18″O • 3,100 m s.n.m. • Huaraz, Perú',
+  coordinates: 'By • Jaimes Cleydi • Rubina Manuel • Huaraz, Perú',
   mode1Quote:
     '“Vemos una universidad moderna y grande, pero sentimos que hay demasiados elementos que no terminan de conectarse entre sí.”',
   mode2Quote:
@@ -2213,16 +2213,16 @@ export default function App() {
 
           <nav className="hidden lg:flex items-center gap-7 text-xs font-semibold uppercase tracking-widest text-slate-400">
             <button onClick={() => scrollToSection('seccion-3d')} className="hover:text-white transition">
-              01. Modelo 3D
+              MODELO 3D
             </button>
             <button onClick={() => scrollToSection('seccion-percepcion')} className="hover:text-white transition">
-              02. Percepción
+              PERCEPCION
             </button>
             <button onClick={() => scrollToSection('seccion-entorno')} className="hover:text-white transition">
-              03. Entorno
+              ENTORNO
             </button>
             <button onClick={() => scrollToSection('seccion-propuesta')} className="hover:text-emerald-400 transition">
-              04. Propuesta
+              PROPUESTA
             </button>
           </nav>
 
